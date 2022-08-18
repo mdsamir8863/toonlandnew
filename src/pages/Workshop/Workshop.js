@@ -8,6 +8,7 @@ import logo from "../../assets/logo.png";
 // import nala from "../../assets/Nala.png";
 
 const Workshop = () => {
+  console.log(1 + 5);
   return (
     <div>
       {/* <Navbar /> */}
@@ -50,7 +51,7 @@ const Workshop = () => {
           the topics are endless!
         </p>
       </div>
-      
+
       <div className="social-div">
         <p>
           Workshops on cell phone de-addiction, social media de-addiction, the
