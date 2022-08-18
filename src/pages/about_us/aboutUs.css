@@ -1,0 +1,53 @@
+.About_heading {
+  /* background-color: aqua; */
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+  text-align: center;
+  word-spacing: 1rem;
+  margin: 1rem 0rem;
+  
+}
+.about_img{
+  position: relative;
+  width: 100%;
+  /* margin: 2rem; */
+ 
+}
+h2{
+  background-color: antiquewhite;
+  color: rgb(51, 35, 35);
+}
+
+h4{
+    position: absolute;
+    color: rgb(0, 0, 0);
+  background-color: antiquewhite;
+
+    top: 39%;
+    left: 25%;
+    padding: 3.1rem 6rem;
+    border-radius: 2rem;
+    font-size: 3rem;
+    
+}
+nav{
+  background-color: antiquewhite;
+}
+.navbar_logo__I2pwl{
+  background-color: rgb(235 19 19 / 0%);
+  width: 8rem;
+  margin-left: 10rem;
+}
+
+
+.persons{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav a p{
+  margin-top: -2%;
+  font-size: large;
+  font-weight: 800;
+  /* color: red; */
+}

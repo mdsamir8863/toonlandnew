@@ -1,0 +1,48 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  min-height: 90vh;
+  background-color: rgb(235, 235, 235);
+  //   p {
+  //     width: 100%;
+  //     overflow: visible;
+  //     white-space: normal;
+  //   }
+  a {
+    text-decoration: none;
+  }
+}
+
+.profileimage {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  margin-top: -5rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.coverimage {
+  aspect-ratio: 16/12;
+}
+.follow {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  margin: 1rem;
+  margin-top: 0.5rem;
+  p {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+  }
+}
+.info {
+  p {
+    margin-bottom: 0.5rem;
+  }
+  margin: 1rem;
+
+  margin-bottom: 0;
+}
